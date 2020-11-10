@@ -1,5 +1,5 @@
 class PrototypesController < ApplicationController
-  before_action :move_to_edit, except: [:index, :show, :new, :create]
+  before_action :move_to_edit, except: [ :show, :new, :create]
 
 
   def index
