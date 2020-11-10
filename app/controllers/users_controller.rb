@@ -4,4 +4,10 @@ class UsersController < ApplicationController
     @users = user
     @prototypes = user.prototypes
   end
+
+  # private
+
+  # def user_params
+  #   params.require(:user).permit(:name, )
+  # end
 end
